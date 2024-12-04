@@ -1,0 +1,27 @@
+.header {
+    padding: 8px 0;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap:56px;
+}
+
+.header_nav-links {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.header_nav-links a {
+    font-size: 14px;
+    font-weight: 600px;
+    color: black;
+}
