@@ -1,0 +1,209 @@
+
+
+.wrapper {
+    padding: 50px 90px;
+    width: 1168px;
+    height: 400px;
+}
+
+.company {
+    padding: 100px 0;
+    display: flex;
+    text-align: center;
+}
+
+.company_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.company_content h1{
+    font-size: 36px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.company-content h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C4C54;
+}
+
+.banner {
+    padding: 50px 0;
+}
+
+.banner_content {
+    position: relative;
+}
+
+.banner_content h1 {
+    position: absolute;
+    top: 0px;
+    left: 37%;
+    transform: translate();
+    font-size: 45px;
+    font-weight: 400;
+    background-color: white;
+}   
+
+.banner-wrapper {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.banner-wrapper div {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.banner-text h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.history {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/Rectangle\ 161.jpg');
+    height: 445px;
+}
+
+.History_content {
+    position: relative;
+    
+}
+
+.History_content h1 {
+    position: absolute;
+    top: 30px;
+    left: 37%;
+    transform: translate();
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+.history-wrapper {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.advertiisng-content {
+    position: relative;
+}
+
+.advertiisng-content h1 {
+    position: absolute;
+    top: 20px;
+    left: 37%;
+    transform: translate();
+    font-size: 45px;
+    font-weight: 400;
+    background-color: white;
+}
+
+.advertiisng-wrapper {
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.advertiisng-wrapper div {
+    display: flex;
+    justify-content: center;
+}
+
+.advertiisng-text {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.advertiisng-text h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nike-content {
+    position: relative;
+}
+
+.nike-content h1 {
+    position: absolute;
+    top: 80px;
+    left: 38%;
+    transform: translate();
+    font-size: 45px;
+    font-weight: 400;
+    color: black;
+}
+
+.nike-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+
+.nike-wrapper-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+}
+
+.number-search {
+    width: 968px;
+    height: 201px;
+}
+
+.section-title-2 {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.textes {
+    text-align: center;
+}
+
+.number-search_button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 60px;
+}
+
+.number-search_button-1 button {
+    width: 300px;
+    height: 47px;
+    background-color: #ECE8E8;
+    color: #737272;
+}
+
+.number-search_button-2 button {
+    width: 300px;
+    height: 47px;
+    background-color: #65256F;
+    color: #FFFFFF;
+}

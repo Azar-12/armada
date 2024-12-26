@@ -1,0 +1,42 @@
+.production-title {
+    position: relative;
+}
+
+.production-title h1 {
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    transform: translate();
+    font-size: 45px;
+    font-weight: 400;
+    background-color: white;
+}
+
+.production-wrappers {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.production-wrappers img {
+    width: 368px;
+    height: 326px;
+}
+
+.production-text {
+    padding-top: 80px;
+    display: flex;
+    text-align: center;
+}
+
+.production-wrapper {
+    padding-top: 80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.production-wrapper img {
+    width: 1200px;
+}

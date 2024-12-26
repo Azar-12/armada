@@ -1,0 +1,41 @@
+
+
+.map-banners {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.map-banner_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.map-banner_contacts-contents {
+    padding-bottom: 30px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.col h1{
+    padding-bottom: 10px;
+    color: #A4A4A4;
+}
+
+.col p{
+    padding-bottom: 10px;
+}
+
+.map-banner_wrapper img{
+    display: flex;
+    align-items: center;
+    width: 670px;
+}
+
+
+

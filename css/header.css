@@ -1,0 +1,35 @@
+.header {
+    padding: 8px 0;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.header_nav-links {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.header_nav-links a {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.header_nav-button {
+    padding: 12px 30px;
+    background: #65256F;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
